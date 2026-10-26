@@ -3,93 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Εταιρική Ιστοσελίδα - Πληροφορίες ΓΕΜΗ</title>
+    <title>K.STROM ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε. - Στοιχεία Δημοσιότητας ΓΕΜΗ</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; color: #333; background-color: #f9f9f9; }
-        .container { max-width: 800px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h1 { color: #0056b3; border-bottom: 2px solid #0056b3; padding-bottom: 10px; }
-        h2 { color: #333; margin-top: 20px; }
-        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
-        .info-label { font-weight: bold; background: #f2f2f2; padding: 8px; border-radius: 4px; }
-        .info-value { padding: 8px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-        th { background-color: #f4f4f4; }
-        .download-btn { display: inline-block; background: #28a745; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; font-weight: bold; }
-        .download-btn:hover { background: #218838; }
-        footer { margin-top: 4px; text-align: center; font-size: 0.9em; color: #777; }
+        :root { --primary-color: #1b365d; --secondary-color: #2b6cb0; --text-color: #2d3748; --bg-color: #f7fafc; --card-bg: #ffffff; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.7; margin: 0; padding: 0; color: var(--text-color); background-color: var(--bg-color); }
+        .header { background-color: var(--primary-color); color: #ffffff; text-align: center; padding: 50px 20px; }
+        .header h1 { margin: 0; font-size: 2.2em; letter-spacing: 0.5px; }
+        .header p { margin: 10px 0 0 0; opacity: 0.9; font-size: 1.1em; font-weight: 300; }
+        .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        .legal-notice { background-color: #ebf8ff; border-left: 5px solid var(--secondary-color); padding: 15px 20px; margin-bottom: 30px; border-radius: 4px; font-size: 0.95em; color: #2b6cb0; }
+        .card { background: var(--card-bg); padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; border: 1px solid #e2e8f0; }
+        h2 { color: var(--primary-color); border-bottom: 2px solid #edf2f7; padding-bottom: 10px; margin-top: 0; font-size: 1.4em; }
+        .info-grid { display: grid; grid-template-columns: 1fr; gap: 15px; }
+        @media (min-width: 600px) { .info-grid { grid-template-columns: 250px 1fr; } }
+        .info-label { font-weight: 600; color: #4a5568; }
+        .info-value { color: #1a202c; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+        th { background-color: #f7fafc; color: var(--primary-color); font-weight: 600; }
+        .download-list { list-style: none; padding: 0; margin: 15px 0 0 0; }
+        .download-item { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 6px; margin-bottom: 10px; }
+        .download-btn { background-color: var(--secondary-color); color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px; font-size: 0.9em; font-weight: 500; transition: background 0.2s; }
+        .download-btn:hover { background-color: var(--primary-color); }
+        footer { text-align: center; padding: 30px 20px; color: #718096; font-size: 0.9em; border-top: 1px solid #e2e8f0; background: #ffffff; margin-top: 60px; }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <h1>[ΟΝΟΜΑ ΕΤΑΙΡΕΙΑΣ] [ΝΟΜΙΚΗ ΜΟΡΦΗ]</h1>
-    <p>Καλώς ήρθατε στην επίσημη εταιρική ιστοσελίδα. Η σελίδα αυτή λειτουργεί σε πλήρη συμμόρφωση με τις διατάξεις του Ν. 4072/2012 και του Ν. 4919/2022 για τη δημοσιότητα στο Γ.Ε.ΜΗ.</p>
-
-    <h2>Γενικά Στοιχεία Εταιρείας</h2>
-    <div class="info-grid">
-        <div class="info-label">Επωνυμία:</div>
-        <div class="info-value">[Πλήρης Εταιρική Επωνυμία, π.χ. ΙΩΑΝΝΗΣ ΠΑΠΑΔΟΠΟΥΛΟΣ ΜΟΝΟΠΡΟΣΩΠΗ ΙΚΕ]</div>
-
-        <div class="info-label">Διακριτικός Τίτλος:</div>
-        <div class="info-value">[Διακριτικός Τίτλος, π.χ. HELLAS DIGITAL IKE]</div>
-
-        <div class="info-label">Νομική Μορφή:</div>
-        <div class="info-value">[π.χ. Ι.Κ.Ε. - Ιδιωτική Κεφαλαιουχική Εταιρεία]</div>
-
-        <div class="info-label">Αριθμός Γ.Ε.ΜΗ.:</div>
-        <div class="info-value"><strong>[Εισάγετε τον Αριθμό ΓΕΜΗ εδώ]</strong></div>
-
-        <div class="info-label">Α.Φ.Μ. / Δ.Ο.Υ.:</div>
-        <div class="info-value">[ΑΦΜ] / [ΔΟΥ]</div>
-
-        <div class="info-label">Εταιρικό Κεφάλαιο:</div>
-        <div class="info-value">[Ποσό σε €] (εκ του οποίου κεφαλαιακές εισφορές: [Ποσό] € και εγγυητικές: [Ποσό] €)</div>
-
-        <div class="info-label">Έδρα / Διεύθυνση:</div>
-        <div class="info-value">[Οδός, Αριθμός, Τ.Κ., Πόλη]</div>
-
-        <div class="info-label">Κατάσταση Εταιρείας:</div>
-        <div class="info-value">Ενεργή (Δεν τελεί υπό εκκαθάριση)</div>
+    <div class="header">
+        <h1>K.STROM ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.</h1>
+        <p>K.STROM SINGLE MEMBER P.C.</p>
     </div>
-
-    <h2>Διαχείριση & Εταίροι</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Ονοματεπώνυμο / Επωνυμία</th>
-                <th>Διεύθυνση</th>
-                <th>Ιδιότητα / Είδος Εισφοράς</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>[Όνομα Εταίρου 1]</td>
-                <td>[Διεύθυνση Εταίρου 1]</td>
-                <td>Διαχειριστής & Εταίρος (Κεφαλαιακή εισφορά)</td>
-            </tr>
-            <tr>
-                <td>[Όνομα Εταίρου 2]</td>
-                <td>[Διεύθυνση Εταίρου 2]</td>
-                <td>Εταίρος (Εξωκεφαλαιακή εισφορά)</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h2>Οικονομικές Καταστάσεις & Ισολογισμοί</h2>
-    <p>Αναρτημένες οικονομικές καταστάσεις σύμφωνα με τη νομοθεσία:</p>
-    <ul>
-        <li>
-            <strong>Οικονομική Χρήση 2025:</strong> 
-            <a href="financials-2025.pdf" class="download-btn" target="_blank">Λήψη PDF</a>
-        </li>
-    </ul>
-
-    <hr>
-    <footer>
-        <p>&copy; 2026 [Ονομασία Εταιρείας]. Με επιφύλαξη παντός δικαιώματος.</p>
-    </footer>
-</div>
-
-</body>
-</html>
+    <div class="container">
+        <div class="legal-notice">Η παρούσα ιστοσελίδα λειτουργεί σε πλήρη συμμόρφωση με το άρθρο 47 του Ν. 4072/2012 και τις διατάξεις του Ν. 4919/2022 περί εταιρικής δημοσιότητας στο Γ.Ε.ΜΗ.</div>
+        <div class="card">
+            <h2>Εταιρικό Προφίλ & Δραστηριότητα</h2>
+            <p>Η εταιρεία <strong>K.STROM ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.</strong> είναι μια ενεργή ελληνική επιχείρηση με έδρα τα Τρίκαλα.</p>
+            <p><strong>Κύρια Δραστηριότητα:</strong> Κατασκευή και εμπορία ορθοπεδικών/ανατομικών στρωμάτων, κρεβατιών, προϊόντων ύπνου, καθώς και επίπλων εσωτερικού και εξωτερικού χώρου.</p>
+        </div>
+        <div class="card">
+            <h2>Εταιρικά Στοιχεία Δημοσιότητας</h2>
+            <div class="info-grid">
+                <div class="info-grid">
+                    <div class="info-label">Εταιρική Επωνυμία:</div><div class="info-value">K.STROM ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε.</div>
+                    <div class="info-label">Λατινική Επωνυμία:</div><div class="info-value">K.STROM SINGLE MEMBER P.C.</div>
+                    <div class="info-label">Αριθμός Γ.Ε.ΜΗ.:</div><div class="info-value"><strong>180812753000</strong></div>
+                    <div class="info-label">Α.Φ.Μ. / Δ.Ο.Υ.:</div><div class="info-value">802680649 / Τρικάλων</div>
+                    <div class="info-label">Εταιρικό Κεφάλαιο:</div><div class="info-value">500,00 € (Κεφαλαιακές εισφορές: 500,00 € / Εγγυητικές εισφορές: 0,00 €)</div>
+                    <div class="info-label">Εταιρική Έδρα:</div><div class="info-value">Φλαμούλι, Τ.Κ. 42100, Τρίκαλα</div>
+                    <div class="info-label">Κατάσταση:</div><div class="info-value">Ενεργή (Η εταιρεία δεν τελεί υπό εκκαθάριση)</div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Διοίκηση & Μοναδικός Εταίρος</h2>
+            <div style="overflow-x: auto;">
+                <table>
+                    <thead><tr><th>Ονοματεπώνυμο</th><th>Διεύθυνση Έδρας/Κατοικίας</th><th>Κατηγορία Εισφοράς & Ιδιότητα</th></tr></thead>
+                    <tbody><tr><td>ΣΤΡΩΜΑΤΑΣ ΚΩΝΣΤΑΝΤΙΝΟΣ</td><td>Φλαμούλι, Τ.Κ. 42100, Τρίκαλα</td><td>Μοναδικός Διαχειριστής & Εταίρος (Κεφαλαιακή Εισφορά)</td></tr></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Οικονομικές Καταστάσεις</h2>
+            <p style="margin: 0; color: #4a5568;">Σύμφωνα με την ισχύουσα νομοθεσία, παρατίθενται οι δημοσιευμένες οικονομικές καταστάσεις της εταιρείας:</p>
+            <ul class="download-list">
+                <li class="download-item">
+                    <span><strong>Οικονομική Χρήση 2025</strong> (Ισολογισμός / Κατάσταση Αποτελεσμάτων)</span>
+                    <a href="isologismos-2025.pdf" class="download-btn" target="_blank">Προβολή PDF</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer><p>&copy; 2026 K.STROM ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε. Όλα τα δικαιώματα διατηρούνται.<br>Ανάπτυξη ιστοσελίδας για συμμόρφωση με τις απαιτήσεις του Γ.Ε.ΜΗ.</p></footer>
